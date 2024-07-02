@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+#main{
+  min-width: 1080px;
+  position: relative;
+  width: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main #img-container{
+  padding: 10px;
+}
+
+#main #img-container #image{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main #img-container #image img{
+  width: 270px;
+  align-items: center;
+}
+
+#main #img-container h1{
+  color: rgb(115, 115, 181);
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+#main #img-container p{
+  color: yellowgreen;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#main #input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  background: rgb(202 253 255 / 50%);
+}
+
+#main #input #talk{
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#main #input #talk i{
+  font-size: 20px;
+  color: rgb(174,208,208);
+}
+
+#main #input #content{
+  color: rgb(174,208,208);
+  font-size: 15px;
+  margin-right: 20px;
+}
